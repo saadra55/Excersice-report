@@ -676,7 +676,7 @@ def main_gui():
     for entry in (address_line_1, address_line_2, city, post_code, contact_number):
         entry.grid(row=f, column=2)
         f += 1
-
+ # Ihave edit comment here to better understand thi s
     tk.Label(f2, text="", anchor="w", width=36, height=4, bg="cyan").grid(row=11, column=1)
     tk.Label(f2, text="Total price..................................................................... ",
              anchor="w", width=36, bg="cyan").grid(row=12, column=1)
